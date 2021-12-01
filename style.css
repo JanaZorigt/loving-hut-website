@@ -1,4 +1,6 @@
 :root {
+  --primary-color: rgb(196, 21, 21);
+  --secondary-color: #216d21;
   --background-color: #fcffca;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -8,30 +10,72 @@ h1 {
   font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 96px;
+  color: var(--primary-color);
 }
 
 h2 {
   font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 48px;
-  color: #216d21;
+  color: var(--secondary-color);
+}
+
+h3 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 48px;
 }
 
 p {
   font-family: var(--default-font-family);
+  font-size: 16px;
+  line-height: 35px;
+  opacity: 80%;
 }
 
 .front-page {
   background-color: var(--background-color);
   text-align: center;
-  padding: 150px 20px;
+  padding: 180px 20px;
 }
 
 .btn-menu {
-  background: black;
-  border-radius: 5px;
-  color: white;
-  font-size: 20px;
-  line-height: 18px;
+  border: 3px solid black;
+  border-radius: 25px;
+  color: black;
+  background: var(--background-color);
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 20px;
   padding: 15px 30px;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 65px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  .benefits {
+    text-align: center;
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 700px) {
+  h3 {
+    margin: 0 30px 30px 0;
+  }
+
+  .benefits {
+    margin: 40px 30px;
+  }
 }
