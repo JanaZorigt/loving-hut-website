@@ -6,14 +6,14 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
-h1 {
+.front-page h1 {
   font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 96px;
   color: var(--primary-color);
 }
 
-h2 {
+.front-page h2 {
   font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 48px;
