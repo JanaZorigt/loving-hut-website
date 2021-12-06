@@ -26,7 +26,7 @@ h3 {
   font-size: 48px;
 }
 
-p {
+.front-page p {
   font-family: var(--default-font-family);
   font-size: 16px;
   line-height: 35px;
@@ -50,16 +50,44 @@ p {
   padding: 15px 30px;
 }
 
+h1 {
+  font-family: var(--heading-font-family);
+  font-size: 96px;
+  text-align: center;
+}
+
+.hours ul {
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.hours-head {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 36px;
+  margin: 0 auto;
+}
+
+p {
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  line-height: 35px;
+  opacity: 75%;
+  margin: 50px;
+}
+
 @media (max-width: 700px) {
-  h1 {
+  .front-page h1 {
     font-size: 65px;
   }
 
-  h2 {
+  .front-page h2 {
     font-size: 35px;
   }
 
-  h3 {
+  .front-page h3 {
     font-size: 35px;
     margin-bottom: 20px;
   }
@@ -68,14 +96,37 @@ p {
     text-align: center;
     margin-top: 40px;
   }
+
+  h1 {
+    font-size: 65px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .logo {
+    max-width: 350px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
 
 @media (min-width: 700px) {
-  h3 {
+  .front-page h3 {
     margin: 0 30px 30px 0;
   }
 
   .benefits {
     margin: 40px 30px;
+    text-align: center;
+  }
+
+  .logo {
+    max-width: 700px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
   }
 }
