@@ -50,17 +50,20 @@ h3 {
   padding: 15px 30px;
 }
 
+.about-page {
+  background-color: var(--background-color);
+}
+
 h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
   text-align: center;
 }
 
-.hours ul {
+ul {
   font-family: var(--default-font-family);
   font-size: 16px;
   list-style-type: none;
-  text-align: center;
 }
 
 .hours-head {
@@ -76,6 +79,15 @@ p {
   line-height: 35px;
   opacity: 75%;
   margin: 50px;
+}
+
+.menu-page {
+  background-color: var(--background-color);
+}
+
+.price {
+  font-weight: bold;
+  float: right;
 }
 
 @media (max-width: 700px) {
