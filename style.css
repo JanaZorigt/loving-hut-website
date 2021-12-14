@@ -39,19 +39,26 @@ h3 {
   padding: 180px 20px;
 }
 
-.btn-menu {
+.menu {
+  margin: 100px auto; 
+}
+
+.menu-link {
   border: 3px solid black;
-  border-radius: 25px;
+  border-radius: 35px;
   color: black;
   background: var(--background-color);
   font-size: 25px;
   font-weight: 500;
-  line-height: 20px;
   padding: 15px 30px;
+  text-decoration: none;
+  opacity: 80%;
+  transition: all 100ms ease-in-out;
 }
 
-.about-page {
-  background-color: var(--background-color);
+.menu a:hover {
+color: red;
+
 }
 
 h1 {
@@ -81,6 +88,10 @@ p {
   margin: 50px;
 }
 
+.about-page {
+  background-color: var(--background-color);
+}
+
 .menu-page {
   background-color: var(--background-color);
 }
@@ -92,6 +103,11 @@ p {
 .price {
   font-weight: bold;
   float: right;
+}
+
+.logo-small img {
+  max-width: 50px;
+  margin: 0 50px 0 50px;
 }
 
 @media (max-width: 700px) {
