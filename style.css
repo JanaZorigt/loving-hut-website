@@ -34,13 +34,40 @@ h3 {
 }
 
 .front-page {
-  background-color: var(--background-color);
   text-align: center;
   padding: 180px 20px;
 }
 
+body {
+  background-color: var(--background-color);
+}
+
+.home-page-content {
+  background-color: white;
+  padding: 5%;
+}
+
+.about-page-paragraph {
+  max-width: 700px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+  padding: 3%;
+}
+
+.contacts {
+  max-width: 700px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+  padding: 3%;
+  font-family: var(--default-font-family);
+}
+
 .menu {
-  margin: 100px auto; 
+  margin: 100px auto;
 }
 
 .menu-link {
@@ -57,8 +84,7 @@ h3 {
 }
 
 .menu a:hover {
-color: red;
-
+  color: red;
 }
 
 h1 {
@@ -85,19 +111,7 @@ p {
   font-size: 16px;
   line-height: 35px;
   opacity: 75%;
-  margin: 50px;
-}
-
-.about-page {
-  background-color: var(--background-color);
-}
-
-.menu-page {
-  background-color: var(--background-color);
-}
-
-.contact-page {
-  background-color: var(--background-color);
+  margin: 3%;
 }
 
 .price {
@@ -108,6 +122,11 @@ p {
 .logo-small img {
   max-width: 50px;
   margin: 0 50px 0 50px;
+}
+
+footer {
+  text-align: center;
+  font-family: var(--default-font-family);
 }
 
 @media (max-width: 700px) {
