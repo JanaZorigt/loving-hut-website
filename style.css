@@ -82,7 +82,8 @@ h2 {
   text-align: center;
 }
 
-p {
+p,
+.contact-page-content a {
   font-family: var(--default-font-family);
   font-size: 16px;
   line-height: 35px;
